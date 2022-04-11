@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>C# 基本语法 | 学习笔记</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="Just playing around">
+    
+    <link rel="preload" href="/assets/css/0.styles.e4d8b86b.css" as="style"><link rel="preload" href="/assets/js/app.99d174c4.js" as="script"><link rel="preload" href="/assets/js/2.2e1bbb8c.js" as="script"><link rel="preload" href="/assets/js/10.6d305651.js" as="script"><link rel="prefetch" href="/assets/js/11.708dadf6.js"><link rel="prefetch" href="/assets/js/12.00190884.js"><link rel="prefetch" href="/assets/js/13.ae7eb4a9.js"><link rel="prefetch" href="/assets/js/14.3ccde763.js"><link rel="prefetch" href="/assets/js/15.b1902d84.js"><link rel="prefetch" href="/assets/js/16.a06ec8e2.js"><link rel="prefetch" href="/assets/js/3.65fb3cf0.js"><link rel="prefetch" href="/assets/js/4.ea05a554.js"><link rel="prefetch" href="/assets/js/5.f2b0188e.js"><link rel="prefetch" href="/assets/js/6.5d9f6cd8.js"><link rel="prefetch" href="/assets/js/7.25a14803.js"><link rel="prefetch" href="/assets/js/8.d03b6a24.js"><link rel="prefetch" href="/assets/js/9.948cda20.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e4d8b86b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/2.png" alt="学习笔记" class="logo"> <span class="site-name can-hide">学习笔记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="专题笔记" class="dropdown-title"><span class="title">专题笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="专题笔记" class="mobile-dropdown-title"><span class="title">专题笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/views/unity/index1/" class="nav-link">
+  unity
+</a></li><li class="dropdown-item"><!----> <a href="/views/C1/" class="nav-link router-link-active">
+  C1
+</a></li><li class="dropdown-item"><!----> <a href="/views/vuepress/index1/" class="nav-link">
+  vuepress
+</a></li></ul></div></div><div class="nav-item"><a href="/views/test/" class="nav-link">
+  temp
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="专题笔记" class="dropdown-title"><span class="title">专题笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="专题笔记" class="mobile-dropdown-title"><span class="title">专题笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/views/unity/index1/" class="nav-link">
+  unity
+</a></li><li class="dropdown-item"><!----> <a href="/views/C1/" class="nav-link router-link-active">
+  C1
+</a></li><li class="dropdown-item"><!----> <a href="/views/vuepress/index1/" class="nav-link">
+  vuepress
+</a></li></ul></div></div><div class="nav-item"><a href="/views/test/" class="nav-link">
+  temp
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>基本语法</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/views/C1/index1.html" class="sidebar-link">C#程序的结构</a></li><li><a href="/views/C1/index2.html" aria-current="page" class="active sidebar-link">C# 基本语法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/C1/index2.html#_2-1数据类型" class="sidebar-link">2.1数据类型</a></li><li class="sidebar-sub-header"><a href="/views/C1/index2.html#_2-2数据类型的转换" class="sidebar-link">2.2数据类型的转换</a></li><li class="sidebar-sub-header"><a href="/views/C1/index2.html#_2-3运算符" class="sidebar-link">2.3运算符</a></li><li class="sidebar-sub-header"><a href="/views/C1/index2.html#_2-4基本语句" class="sidebar-link">2.4基本语句</a></li><li class="sidebar-sub-header"><a href="/views/C1/index2.html#_2-5数组" class="sidebar-link">2.5数组</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>高级教程</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="c-基本语法"><a href="#c-基本语法" class="header-anchor">#</a> C# 基本语法</h1> <h2 id="_2-1数据类型"><a href="#_2-1数据类型" class="header-anchor">#</a> 2.1数据类型</h2> <p>数据类型 常用的有两种，一种是值类型，如 int , char ,float等 ；另一种是引用类型 如string object,Array等
+值类型 是直接在栈中声明，也储存栈中，；值类型好比货币，直接拿在手里，买东西时可以直接交易。
+引用类型 在栈中声明， 储存在堆，栈中储存的是其的引用；引用类型好比银行存折，买东西时要去银行取钱才行。</p> <h2 id="_2-2数据类型的转换"><a href="#_2-2数据类型的转换" class="header-anchor">#</a> 2.2数据类型的转换</h2> <p>数据类型转换就是把一种数据类型转换为另一种类型，C#中有两种转换。
+隐式转换-- C#中默认的安全转换，不会存在数据丢失的情况，比如值范围小的类型转换为大的类型。</p> <p>显式强制转换--显式转换需要有强制转换的运算符，而且强制转换可能会造成数据丢失。</p> <h2 id="_2-3运算符"><a href="#_2-3运算符" class="header-anchor">#</a> 2.3运算符</h2> <h2 id="_2-4基本语句"><a href="#_2-4基本语句" class="header-anchor">#</a> 2.4基本语句</h2> <p>判断语句/选择语句
+一》 if(判断式)
+{（判断的结果为真）--这里执行语句；}
+else{（判断结果为假）--执行这里的语句；}    或  else if (判断式){   }
+if语句可以多重镶嵌套使用
+二》 switch 语句
+switch（判断字段）
+case  值 ：
+{（如果判断字段的值等于这里的值）--执行语句  }
+break;   //要有break打破判断语句1
+case 值 :  //可以有多个可选case值
+{     }
+break;
+defaut:    //当判断字段没有与case中值时，则可用default来执行
+{     }
+break;
+循环语句
+一》 for（ 1.起始值 ；    2.5.判断式 ；   4.7.起始值变化数 ）
+{  3.6.执行语句       }</p> <div class="language- extra-class"><pre><code> 二》 while (1.4.判别式)
+         {   
+             2.5.执行语句；
+             3.6.判别式中循环值的变化；
+         
+         }
+ 三
+</code></pre></div><h2 id="_2-5数组"><a href="#_2-5数组" class="header-anchor">#</a> 2.5数组</h2></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/views/C1/index1.html" class="prev">
+        C#程序的结构
+      </a></span> <span class="next"><a href="/views/C1/index3.html">
+        C# 3
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.99d174c4.js" defer></script><script src="/assets/js/2.2e1bbb8c.js" defer></script><script src="/assets/js/10.6d305651.js" defer></script>
+  </body>
+</html>
